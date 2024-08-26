@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color:aliceblue;
+}
+
+#RPS{
+    color: aqua;
+    font-weight: 400;
+    font-family:sans;
+}
+
+.container{
+
+    margin: 100px auto;
+    padding:15px;
+    width:900px;
+    height:600px;
+    border: 5px solid grey;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+button{
+    height:400px;
+    width:250px;
+    border: none;
+    border-radius:20px;
+}
+
+.rock{
+    background-color: dimgrey;
+    color:antiquewhite;
+    font-family: sans;
+    font-size: 40px;
+    border: 10px solid black;
+    
+}
+
+.paper{
+    background-color: burlywood;
+    color:rgb(126, 54, 28);
+    font-family: sans;
+    font-size: 40px;
+    border: 10px solid orange;
+}
+
+.scissors{
+    background-color: brown;
+    color:rgb(250, 187, 28);
+    font-family: sans;
+    font-size: 40px;
+    border: 10px solid maroon;
+}
+
+button:hover{
+    opacity: 80%;
+    transition: 0.4s;
+}
+button:active{
+    opacity: 100%;
+    transition: 0.2s;
+}
